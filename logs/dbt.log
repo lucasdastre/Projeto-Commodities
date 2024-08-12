@@ -1,0 +1,30 @@
+[0m20:28:00.755352 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BFFDDFD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BFE8C1F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B809B6900>]}
+
+
+============================== 20:28:00.758468 | d3edfade-4d3e-44e2-a268-c6ee186d88f5 ==============================
+[0m20:28:00.758468 [info ] [MainThread]: Running with dbt=1.8.5
+[0m20:28:00.759471 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lurch\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m20:28:00.771455 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/lurch/.dbt')}
+[0m20:28:00.772145 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m20:29:09.176347 [debug] [MainThread]: Starter project path: C:\Users\lurch\documents\Projeto-Commodities\.venv\Lib\site-packages\dbt\include\starter_project
+[0m20:29:09.186974 [info ] [MainThread]: 
+Your new dbt project "commodities" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:29:09.187969 [info ] [MainThread]: Setting up your profile.
+[0m20:31:13.139079 [info ] [MainThread]: Profile commodities written to C:\Users\lurch\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:31:13.140079 [debug] [MainThread]: Command `dbt init` succeeded at 20:31:13.140079 after 192.53 seconds
+[0m20:31:13.140079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B80CF6DE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B80174FB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022BFE8C1F40>]}
+[0m20:31:13.141085 [debug] [MainThread]: Flushing usage events
