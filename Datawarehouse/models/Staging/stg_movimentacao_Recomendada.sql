@@ -1,9 +1,10 @@
 with source as (
-    date,
-    symbol,
-    action,
-    quantity
-from 
+    Select
+        date,
+        symbol,
+        action,
+        quantity
+    from 
     {{source('dbsales_17k0', 'mov_commo')}}
 ),
 
