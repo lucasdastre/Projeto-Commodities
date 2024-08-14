@@ -2,6 +2,9 @@
 
 #elt example
 
+#O script busca a cotação das commodities nos utimos 5 dias 
+
+
 import pandas as pd
 from  sqlalchemy import create_engine
 from  dotenv import load_dotenv
